@@ -1,0 +1,47 @@
+
+state = {
+	id = 821
+	name = "STATE_821"
+	manpower = 731985
+	
+	state_category = metropolis
+	
+	resources={
+		oil = 40
+	}
+
+	history = {
+		owner = CHC
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 3
+			3672 = {
+				bunker = 4
+			}
+			670 = {
+				bunker = 2
+			}
+			6689 = {
+				bunker = 4
+			}
+			3667 = {
+				bunker = 4
+			}
+			1455 = {
+				bunker = 4
+			}
+		}
+		victory_points = {
+			3672 15
+		}
+		add_core_of = CHC
+		add_core_of = SOV
+	}
+
+	provinces = {
+		666 670 1455 3667 3672 6689
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,15 @@
+characters={
+	CHC_khasan_israilov = { 
+		name = CHC_khasan_israilov
+		portraits = {
+			civilian = {
+				large = "gfx/portrait_CHC_khasan_israilov.png"
+			}
+		}
+		country_leader = {
+			ideology = islamic_extremism
+			expire = "1960.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,50 @@
+add_namespace = CHC
+
+country_event = {
+    id = CHC.1
+    title = CHC.1.t
+    desc = CHC.1.desc
+    
+    is_triggered_only = yes
+    
+	trigger = {
+		any_neighbor_country = {
+			tag = CHC
+			exists = yes
+		}
+	}
+	
+	immediate = {
+		diplomatic_relation = {
+			country = CHC
+			relation = non_aggression_pact
+			active = no
+		}
+	}
+	
+	#WAR
+    option = {
+        name = CHC.1.a
+        declare_war_on = {
+			target = CHC
+			type = annex_everything
+		}
+		
+		ai_chance = {
+			base = 10
+		}
+    }
+	
+	#NO WAR
+    option = {
+        name = CHC.1.b
+        add_war_support = -0.05
+		CHC = { add_stability = 0.15 }
+		
+		ai_chance = {
+			base = 1
+		}
+    }
+}
+
+#news_event = {}

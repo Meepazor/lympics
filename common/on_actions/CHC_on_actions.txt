@@ -1,0 +1,13 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			SOV = { 
+				country_event = {
+					id = CHC.1
+					days = 1246
+					random_days = 30
+				}
+			}
+		}
+	}
+}
